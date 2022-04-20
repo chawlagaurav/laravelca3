@@ -5,72 +5,42 @@
         <div class="col-lg-4 py-2 wow zoomIn">
           <div class="card-blog">
             <div class="header">
-              <div class="post-category">
-                <a href="#">Covid19</a>
-              </div>
+              
               <a href="blog-details.html" class="post-thumb">
                 <img src="../assets/img/blog/blog_1.jpg" alt="">
               </a>
             </div>
             <div class="body">
               <h5 class="post-title"><a href="blog-details.html">For COVID patients</a></h5>
-              <div class="site-info">
-                <div class="avatar mr-2">
-                  <div class="avatar-img">
-                    <img src="../assets/img/person/person_1.jpg" alt="">
-                  </div>
-                  <span>COVID UPDATE</span>
-                </div>
-                <span class="mai-time"></span> 1 week ago
-              </div>
+              
             </div>
           </div>
         </div>
         <div class="col-lg-4 py-2 wow zoomIn">
           <div class="card-blog">
             <div class="header">
-              <div class="post-category">
-                <a href="#">Diabities</a>
-              </div>
+              
               <a href="blog-details.html" class="post-thumb">
                 <img src="../assets/img/blog/blog_2.jpg" alt="">
               </a>
             </div>
             <div class="body">
               <h5 class="post-title"><a href="blog-details.html">Diabitic Patients</a></h5>
-              <div class="site-info">
-                <div class="avatar mr-2">
-                  <div class="avatar-img">
-                    <img src="../assets/img/person/person_1.jpg" alt="">
-                  </div>
-                  <span>Diabitic</span>
-                </div>
-                <span class="mai-time"></span> 4 weeks ago
-              </div>
+              
             </div>
           </div>
         </div>
         <div class="col-lg-4 py-2 wow zoomIn">
           <div class="card-blog">
             <div class="header">
-              <div class="post-category">
-                <a href="#">Eyes</a>
-              </div>
+            
               <a href="blog-details.html" class="post-thumb">
                 <img src="../assets/img/blog/blog_3.jpg" alt="">
               </a>
             </div>
             <div class="body">
               <h5 class="post-title"><a href="blog-details.html">Eye Special</a></h5>
-              <div class="site-info">
-                <div class="avatar mr-2">
-                  <div class="avatar-img">
-                    <img src="../assets/img/person/person_2.jpg" alt="">
-                  </div>
-                  <span>Eye</span>
-                </div>
-                <span class="mai-time"></span> 2 months ago
-              </div>
+              
             </div>
           </div>
         </div>

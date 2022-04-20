@@ -1,7 +1,7 @@
 <x-guest-layout>
     <x-jet-authentication-card>
         <x-slot name="logo">
-            HEALTHBUD
+            <h1 style="color:#00cccc;">HEALTHBUD</h1>
         </x-slot>
 
         <x-jet-validation-errors class="mb-4" />

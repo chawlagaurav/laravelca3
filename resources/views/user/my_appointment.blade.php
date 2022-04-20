@@ -19,6 +19,58 @@
   <link rel="stylesheet" href="../assets/vendor/animate/animate.css">
 
   <link rel="stylesheet" href="../assets/css/theme.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body
+{
+    background-image: linear-gradient(#fcfcfd, #fcfafa );
+    color: #00ffff;
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+}
+h2{
+    margin-top:30px;
+}
+table{
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    border-spacing:20px;
+
+
+    
+    
+}
+th {
+      background-color: #010107;
+      color: #fcfcfd;
+      border-radius:20px;
+      border:0;
+    
+      
+   }
+td{
+    height: 30px;
+    vertical-align:center;
+    border-radius:20px;
+    background-color:#00ffff ;
+    color:#fcfcfd;
+    border:0;
+}
+th,td{
+    padding:5px;
+    border-bottom: 1px solid #fcfcfd;
+}
+td a{
+    text-decoration:none;
+    color:#fcfcfd;
+}
+td a:hover{
+    color: #010107;
+}
+
+  </style>
 </head>
 <body>
 
@@ -40,26 +92,14 @@
 
         <div class="collapse navbar-collapse" id="navbarSupport">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item ">
               <a class="nav-link" href="{{url('/')}}">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About Us</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="doctors.html">Doctors</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="blog.html">News</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
+            </li>          
 
             @if(Route::has('login'))
 
             @auth 
-            <li class="nav-item">
+            <li class="nav-item active">
               <a class="nav-link" href="{{url('myappointment')}}">Appointment</a>
             </li>
             <x-app-layout>
@@ -84,22 +124,22 @@
   </header>
 
   <div align="center" style="padding:70px;">
-      <table>
-          <tr style ="background-color:black;">
-              <th style="padding : 10px; font-size:20px; color:white; ">Doctor Name</th>
-              <th style="padding : 10px; font-size:20px; color:white; ">Date</th>
-              <th style="padding : 10px; font-size:20px; color:white; ">Message</th>
-              <th style="padding : 10px; font-size:20px; color:white; ">Status</th>
-              <th style="padding : 10px; font-size:20px; color:white; ">Cancel</th>
+      <table >
+          <tr>
+              <th >Doctor Name</th>
+              <th >Date</th>
+              <th >Message</th>
+              <th >Status</th>
+              <th >Cancel</th>
           </tr>
 
           @foreach($appoint as $appoints)
-          <tr style="background-color:lime" align="center">
-              <td style="padding : 10px;  color:white; ">{{$appoints->doctor}}</td>
-              <td style="padding : 10px;  color:white; ">{{$appoints->date}}</td>
-              <td style="padding : 10px;  color:white; ">{{$appoints->message}}</td>
-              <td style="padding : 10px;  color:white; ">{{$appoints->status}}</td>
-              <td><a class="btn btn-danger" onclick="return confirm('Are you sure ?')" href="{{url('cancel_appoint',$appoints->id)}}">Cancel</a></td>
+          <tr >
+              <td>{{$appoints->doctor}}</td>
+              <td>{{$appoints->date}}</td>
+              <td>{{$appoints->message}}</td>
+              <td>{{$appoints->status}}</td>
+              <td><a  onclick="return confirm('Are you sure ?')" href="{{url('cancel_appoint',$appoints->id)}}">Cancel</a></td>
           </tr>
           @endforeach
       </table>

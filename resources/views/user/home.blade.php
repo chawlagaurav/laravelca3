@@ -99,10 +99,10 @@
 
   <div class="page-hero bg-image overlay-dark" style="background-image: url(../assets/img/bg_image_1.jpg);">
     <div class="hero-section">
-      <div class="container   wow zoomIn">
-        <span class="subhead">STAY HEALTHY & FIT</span>
+      <div class="container   wow fadeIn">
+        <span class="subhead">STAY HEALTHY & FIT WITH</span>
         <h1 class="display-4">HEALTH BUD</h1>
-        <a href="" class="btn btn-primary">Let's Consult</a>
+        <a href="" class="btn btn-primary">Know more</a>
       </div>
     </div>
   </div>
@@ -144,8 +144,8 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6 py-3 wow fadeInUp">
-            <h1>Welcome to Your Health <br> Center</h1>
-            <p class="text-grey mb-4">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Accusantium aperiam earum ipsa eius, inventore nemo labore eaque porro consequatur ex aspernatur. Explicabo, excepturi accusantium! Placeat voluptates esse ut optio facilis!</p>
+            <h1>Take Your Health One Step <br>Ahead</h1>
+            <p class="text-grey mb-4">There is a global acceptance that health and social wellbeing are determined by many factors outside the health system which include socioeconomic conditions, patterns of consumption associated with food and communication, demographic patterns, learning environments, family patterns, the cultural and social fabric of societies; sociopolitical and economic changes, including commercialization and trade and global environmental change.</p>
             <a href="about.html" class="btn btn-primary">Learn More</a>
           </div>
           <div class="col-lg-6 wow fadeInRight" data-wow-delay="400ms">
@@ -173,8 +173,7 @@
           <h5>Company</h5>
           <ul class="footer-menu">
             <li><a href="#">About Us</a></li>
-            <li><a href="#">Career</a></li>
-            <li><a href="#">Editorial Team</a></li>
+         
          
           </ul>
         </div>
@@ -182,17 +181,15 @@
           <h5>More</h5>
           <ul class="footer-menu">
             <li><a href="#">Terms & Condition</a></li>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Advertise</a></li>
+            
             
           </ul>
         </div>
         <div class="col-sm-6 col-lg-3 py-3">
           <h5>Our partner</h5>
           <ul class="footer-menu">
-            <li><a href="#">One-Fitness</a></li>
-            <li><a href="#">One-Drugs</a></li>
-            <li><a href="#">One-Live</a></li>
+            <li><a href="#">HealthBud</a></li>
+            
           </ul>
         </div>
         <div class="col-sm-6 col-lg-3 py-3">
@@ -201,14 +198,8 @@
           <a href="#" class="footer-link">88986 58962</a>
           <a href="#" class="footer-link">healthbud@gmail.com</a>
 
-          <h5 class="mt-3">Social Media</h5>
-          <div class="footer-sosmed mt-3">
-            <a href="#" target="_blank"><span class="mai-logo-facebook-f"></span></a>
-            <a href="#" target="_blank"><span class="mai-logo-twitter"></span></a>
-            <a href="#" target="_blank"><span class="mai-logo-google-plus-g"></span></a>
-            <a href="#" target="_blank"><span class="mai-logo-instagram"></span></a>
-            <a href="#" target="_blank"><span class="mai-logo-linkedin"></span></a>
-          </div>
+     
+         
         </div>
       </div>
 
